@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7937209666654676858
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5157856984406717824, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 96061712a81e3f34f88e5cc5d3816901, type: 3}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.822145
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717825, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157856984406717826, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: monsterPrefab
+      value: 
+      objectReference: {fileID: 2482398867049019148, guid: e069d60130522554983790d63c8f8ba6, type: 3}
+    - target: {fileID: 5157856984406717829, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+      propertyPath: m_Name
+      value: 'BarrelSpawnpoint '
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5157856984406717827, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+--- !u!1 &3004676906242790143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5157856984406717829, guid: e5aaf27cab0d4f94fa04b66b8e69a054, type: 3}
+  m_PrefabInstance: {fileID: 7937209666654676858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2074471233
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004676906242790143}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90ce310d5e098d34dab1e0648dadcaac, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
